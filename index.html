@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <title>Landing</title>
+  </head>
+  <body>
+    <!-- html_css_js start -->
+    <div class="bg_img">
+      <section class="html_css_js">
+        <img class="logo" src="./img/tehnikum-coding-logo.svg" alt="">
+        <div class="course_info">
+          <div class="course_data">
+            <span class="title">старт</span>
+            <span class="value">1 декабря</span>
+          </div>
+          <div class="course_data">
+            <span class="title">длительность</span>
+            <span class="value">2 месяца | 24 занятия</span>
+          </div>
+        </div>
+        <h1>HTML, CSS, JS</h1>
+        <p>Верстальщик – это специалист, который кодит страницы web-сайтов, разбивает текст на отдельные страницы, компонует его с иллюстрациями. Он умеет создавать HTML-шаблоны для веб-сайтов и писать HTML-код, знает, как графически оформить страницу и правильно расположить на ней элемент, и знаком со стилями</p>
+        <div class="btn_wrapper">
+          <button class="primary" onclick="openPopUp()">Получить программу курса</button>
+          <button class="secondary">Записаться на курс</button>
+        </div>
+      </section>
+    </div>
+    <!-- html_css_js end -->
+    <!-- timer_start -->
+    <section class="timer">
+      <h2>10% скидка действует</h2>
+      <div class="timer_container">
+        <div class="timer_card">
+          <div class="timer_value">00</div>
+          <div class="timer_text">дней</div>
+        </div>
+        <div class="timer_card">
+          <div class="timer_value">00</div>
+          <div class="timer_text">часов</div>
+        </div>
+        <div class="timer_card">
+          <div class="timer_value">00</div>
+          <div class="timer_text">минут</div>
+        </div>
+      </div>
+      <button class="timer_btn secondary">Воспользоваться скидкой</button>  
+    </section>
+    <!-- timer_end -->
+    <section class="legend">
+      <h3>А кто преподает?</h3>
+      <div class="legend_wrapper">
+        
+        <img class="legend_img" src="./img/Yuriy-Maksimovich.png" alt="">
+       
+        <div class="legend_text_wrapper">
+          <h3>Юрий Каграманян</h3>
+          <p class="subtitle">Практикующий преподаватель с опытом работы в сфере веб программирования</p>
+          <div class="legend_icons">
+            <div class="legend_card">
+              <img src="./img/cool-smile.svg" alt="">
+              <p>Руководитель TEHNIKUM.CODING</p>
+            </div>
+            <div class="legend_card">
+              <img src="./img/winning-cup-icon.svg" alt="">
+              <p>Призер международных олимпиад</p>
+            </div>
+            <div class="legend_card">
+              <img src="./img/case-icon.svg" alt="">
+              <p>Работал с компаниями Hi-Tech Bank, UGGI, 1C-Bitrix</p>
+            </div>
+            <div class="legend_card">
+              <img src="./img/keyboard-icon.svg" alt="">
+              <p>Более 10 лет опыта в программировании</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ПРОГРАММА КУРСА -->
+    <section class="lesson">
+      <div class="border">
+        <img src="./img/course-program-corner.svg" alt="corner" id="corner">
+        <h3>Программа курса</h3>
+        <div class="program">
+          <ul>
+            <li>Урок №1: Знакомство с html, css, js и разница между ними</li>
+            <li>Урок №2: Виды сайтов и первые термины</li>
+            <li>Урок №3: CSS - базовые стили и их подключение. Палитра</li>
+            <li>Урок №4: HTML [Таблицы]</li>
+            <li>Урок №5: HTML [Формы]</li>
+            <li>Урок №6: CSS [Intermediate]</li>
+          </ul>
+        </div>
+        <button class="primary">Получить полную программу курса</button>
+      </div>
+
+      <button class="primary">Получить полную программу курса</button>
+    </section>
+    
+    <!-- popUp -->
+    <div class="bg closed" onclick="closePopUp()">
+      <div class="popUp">
+        <div class="form">
+          <h2>оставь заявку</h2>
+          <div>
+            <input type="text" name="name" placeholder="Имя">
+            <input type="tel" name="phone" placeholder="+998">
+          </div>
+          <button class="primary">Записаться на курс</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+  </body>
+ 
+</html>
